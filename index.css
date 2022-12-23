@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #dcdcdc;
+}
+.container{
+    margin: auto;
+    width: 70%;
+
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: white;
+    
+}
+.container h1{
+    text-align: center;
+    font-size: 3.0rem;
+     font-family: 'Fascinate', cursive;
+     background-color: #eee;
+}
+.result{
+    text-align: center;
+    font-size: 2.0rem;
+}
+.question-ask{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.option-value{
+    margin-top: 20px;
+     display: flex;
+     justify-content: space-around;
+     background-color: #ddd;
+     }
+     .option{
+        width: 12vw;
+        height: 8vh;
+        border: none;
+       border-radius: 20px;
+       
+        padding: 10px auto;
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+     }
+     .option:hover{
+        background-color: antiquewhite;
+     }
+     .navigation-container{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        background-color: #ddd;
+     }
+     .evaluate,.next{
+        width: 20vw;
+        height: 10vh;
+        padding: 5px;
+        border-style: none;
+        font-size: 1.3rem;
+        border-radius: 10px 35px;
+    }
+    .evaluate{
+        background-color:#222266;
+        color: white;
+        
+    }
+    .next{
+        background-color:red;
+        color: white;
+        
+    }
+/* Media Queries for responsive design */
+
+@media only screen and (max-width: 992px){
+     .container h1{
+        font-size: 1.3rem;
+        text-align: center;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+      }
+      .question-ask{
+         font-size: 1.0rem;
+         text-align: center;
+         justify-content: center;
+      }
+    .result{
+        font-size: 1.0rem;
+        text-align: center;
+    }
+   .option-value{
+     display: flex;
+     height: 50px;
+     justify-content: space-between;
+   
+}
+.option{
+ width: 14vw;
+    height: 18vh;
+    padding: 4px 0px;
+    cursor: pointer;
+}
+
+.evaluate, .next{
+     
+    width: 15vw;
+    height: 25vh;
+    font-size: 0.9rem;
+}
+
+}
